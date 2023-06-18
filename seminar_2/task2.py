@@ -18,8 +18,6 @@ def hexadecimal(number):
             number //= 16
     return result
 
-
-
 if __name__ == '__main__':
     while True:
         number = input("Введите целое число без пробелов: ")
@@ -33,8 +31,3 @@ if __name__ == '__main__':
         answer = input("Еще разочек? (да/нет): ")
         if answer.lower() == "нет":
             break
-
-
-
-
-
