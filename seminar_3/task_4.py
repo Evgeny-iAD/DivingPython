@@ -43,8 +43,7 @@ if __name__ == '__main__':
         if not things in result:
             result.append(things)
     for i in range(len(result)):
-        print(f"\nВариант №{i}: вес {sum(result[i].values()), 2} кг ")
-        print(result[i])
+        print(f"\nВариант №{i}: вес {round(sum(result[i].values()), 2)} кг ")
         for element in result[i]:
             print(f"{element}: {result[i][element]}")
 
