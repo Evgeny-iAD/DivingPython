@@ -4,7 +4,7 @@ def format_things_print(things):
     result = ''
     for i, element in enumerate(things):
         result += f" {element}"
-        result += ",\n" if (i % 5 == 0) and (i != 0) else ", "
+        result += ",\n" if i % 5 == 0 and i != 0 else ", "
     return result[:-2]
 
 if __name__ == '__main__':
